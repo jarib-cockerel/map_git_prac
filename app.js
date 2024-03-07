@@ -31,4 +31,22 @@ const sibling = [
     Age: "40",
     Location: "Georgia",
   },
+  {
+    Position: "3 out of 5",
+    Name: "Randy J. Cockerel",
+    Age: "34",
+    Location: "Where is Waldo",
+  },
+  {
+    Position: "4 out of 5",
+    Name: "Jausecca Cockerel",
+    Age: "32",
+    Location: "Georgia",
+  },
+  {
+    Position: "5 out of 5",
+    Name: "Jarib Cockerel",
+    Age: "30",
+    Location: "San Antonio",
+  },
 ];
