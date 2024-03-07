@@ -6,7 +6,7 @@
 //return value and push onto arry
 //return array at the very end
 
-const jasmineCore = require("jasmine-browser-runner/lib/jasmineCore");
+// const jasmineCore = require("jasmine-browser-runner/lib/jasmineCore");
 
 //define myMap
 function myMap(arr, callback) {
@@ -50,3 +50,9 @@ const sibling = [
     Location: "San Antonio",
   },
 ];
+
+let sibs_position = myMap(sibling, function (position) {
+  return siblings.Position;
+});
+
+console.log(sibs_position);
