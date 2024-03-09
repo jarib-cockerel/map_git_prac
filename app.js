@@ -51,8 +51,8 @@ const sibling = [
   },
 ];
 
-let sibs_position = myMap(sibling, function (position) {
-  return siblings.Position;
+let sibs_position = myMap(sibling, function (location) {
+  return location.Position;
 });
 
 console.log(sibs_position);
